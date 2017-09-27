@@ -51,13 +51,21 @@ Challenges within each section are meant to be solved in order.
 ### Variables
 
 1.  Print a sentence, like `Hello world`
+    - echo Hello world
 1.  Print a variable value, like `$USER` or `$PATH`
+    - echo $USER
 1.  Set a variable `NAME` equal to your first name, then print its value
+    - NAME=Avery; echo $NAME
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
+    - FULL_NAME="Avery Durrant"
 1.  Print all environment variables (names and values)
+    - set
 1.  Make an alias named `hello` that prints `Hello world`
+    - alias hello="echo 'Hello World'"
 1.  Make an alias named `gocode` that navigates to your code directory
+    - alias gocode="cd ~/Documents/'Make School'/Core-Unix-Utilities"
 1.  Print all aliases (names and values)
+    - alias
 
 ### Getting Help
 
