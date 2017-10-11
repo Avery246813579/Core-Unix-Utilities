@@ -60,6 +60,7 @@ Challenges within each section are meant to be solved in order.
     - FULL_NAME="Avery Durrant"
 1.  Print all environment variables (names and values)
     - set
+    - env
 1.  Make an alias named `hello` that prints `Hello world`
     - alias hello="echo 'Hello World'"
 1.  Make an alias named `gocode` that navigates to your code directory
@@ -72,7 +73,7 @@ Challenges within each section are meant to be solved in order.
 1.  Print what options a command accepts, like `bash` or `python`
     - bash --help
 1.  Read the manual for a command, like `echo` or `ls`
-    - mach echo
+    - man echo
 1.  Print the file path to a command, like `bash` or `python`
     - which bash
 
@@ -108,6 +109,7 @@ Challenges within each section are meant to be solved in order.
     - rm Shelter/*.txt
 1.  Remove the directory `Shelter` (this should succeed)
     - rmdir Shelter
+    - rm -r Shelter
 1.  Now cry because you just deleted those poor tiny animals
     - echo Cry
 
@@ -122,7 +124,7 @@ Challenges within each section are meant to be solved in order.
 1.  List the permissions (and metadata) of the file `Cats.txt`
     - ls -lisan Cats.txt
 1.  Change the owner of the file `Cats.txt` to another user
-    - chown Guest:Cats.txt
+    - chown Guest: Cats.txt
 1.  Now list the permissions (and owner) of the file `Cats.txt`
     - ls -l Cats.txt
 1.  Try to change the owner of the file `Cats.txt` back to yourself
